@@ -1,6 +1,6 @@
 # Guide-UnityDearImGui
 
-Code for using "Dear ImGui" solution with <em>Unity</em>
+Code for using <em>Dear ImGui</em> solution with <em>Unity</em>
 
 # How To Install
 
