@@ -268,7 +268,7 @@ public class DearImGuiDemoWindow : MonoBehaviour
 
 # Helpful links
 
-[Dear ImGui Manual](https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html)<br/>
+[Dear ImGui Manual In C++](https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html)<br/>
 [realgamessoftware - Original Repo](https://github.com/realgamessoftware/dear-imgui-unity/issues)<br>
 [mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity)<br>
 [ImGui.NET - Repo](https://github.com/mellinoe/ImGui.NET)<br>
