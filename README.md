@@ -7,7 +7,7 @@ Code for using <em>Dear ImGui</em> solution with <em>Unity</em>
 [realgamessoftware - Original Repo](https://github.com/realgamessoftware/dear-imgui-unity/issues)<br>
 [mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity)
 
-Forked repo fixes this issue: https://github.com/realgamessoftware/dear-imgui-unity/issues/28
+Forked repo fixes an issue from Unity version 2020.1.0b4: https://github.com/realgamessoftware/dear-imgui-unity/issues/28
 
 # How To Install
 
