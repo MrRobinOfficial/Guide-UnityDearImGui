@@ -13,6 +13,9 @@ Forked repo fixes an issue from Unity version 2020.1.0b4: https://github.com/rea
 
 * [Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from this git URL: https://github.com/mattmanj17/dear-imgui-unity.git
 * Add a DearImGui component to one of the objects in the scene.
+* Create 'Ini Settings Asset' and 'Font Atlas Config Asset' in the project folder.
+* Add custom fonts to the 'StreamingAssets' folder and link it up to the 'Font Atlas Config Asset'.
+* Change the 'Font pixel' in the 'Font Atlas Config Asset', to scale up the font size.
 * When using the Universal Render Pipeline, add a Render Im Gui Feature render feature to the renderer asset. Assign it to the render feature field of the DearImGui component.
 * Subscribe to the ImGuiUn.Layout event and use ImGui functions.
 * Example script:
