@@ -5,13 +5,13 @@ Code for using <em>Dear ImGui</em> solution with <em>Unity</em>
 # Repos
 
 [realgamessoftware - Original Repo](https://github.com/realgamessoftware/dear-imgui-unity)<br>
-[mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity)
+[mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity#matthewd)
 
 Forked repo fixes an issue from Unity version 2020.1.0b4: https://github.com/realgamessoftware/dear-imgui-unity/issues/28
 
 # How To Install
 
-* [Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from this git URL: https://github.com/mattmanj17/dear-imgui-unity.git
+* [Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from this git URL: https://github.com/mattmanj17/dear-imgui-unity.git#matthewd
 * Add a DearImGui component to one of the objects in the scene.
 * Create 'Ini Settings Asset' and 'Font Atlas Config Asset' in the project folder.
 * Add custom fonts to the 'StreamingAssets' folder and link it up to the 'Font Atlas Config Asset'.
@@ -273,7 +273,7 @@ public class DearImGuiDemoWindow : MonoBehaviour
 
 [Dear ImGui Manual In C++](https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html)<br/>
 [realgamessoftware - Original Repo](https://github.com/realgamessoftware/dear-imgui-unity/issues)<br>
-[mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity)<br>
+[mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity#matthewd)<br>
 [ImGui.NET - Repo](https://github.com/mellinoe/ImGui.NET)<br>
 [cimgui - Repo](https://github.com/cimgui/cimgui)<br>
 [imgui - 'Creator' Repo](https://github.com/ocornut/imgui)<br>
