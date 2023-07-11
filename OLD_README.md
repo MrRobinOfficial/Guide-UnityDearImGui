@@ -1,52 +1,26 @@
-![Banner](Banner.png)
+# Guide-UnityDearImGui
 
-<div align="center">
-  
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mrrobinofficial/guide-unitysteamnetcodegameobjects/blob/HEAD/LICENSE.txt)
-![guide-status](https://img.shields.io/badge/guide_status-completed-green)
+Code for using <em>Dear ImGui</em> solution with <em>Unity</em>
 
-</div>
+# Repos
 
-#
-
-<center>
-    <p>
-        <i>
-            This repo is a comprehensive repository designed to help users quickly and effectively get started with integrating Dear ImGui, a bloat-free graphical user interface library, into their Unity projects. Dear ImGui provides a lightweight, customizable, and efficient GUI solution that allows you to create user interfaces for your applications and games with ease.
-        </i>
-    </p>
-</center>
-
-## ⚙️ Before you begin
-
-realgamessoftware - [Original Repo](https://github.com/realgamessoftware/dear-imgui-unity)
-
-mattmanj17 - [Forked Repo](https://github.com/mattmanj17/dear-imgui-unity#matthewd)
+[realgamessoftware - Original Repo](https://github.com/realgamessoftware/dear-imgui-unity)<br>
+[mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity#matthewd)
 
 Forked repo fixes an issue from Unity version 2020.1.0b4: https://github.com/realgamessoftware/dear-imgui-unity/issues/28
 
-## ⚒️ How to Install
+# How To Install
 
-* Install via Package Manager by clicking on [add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html), then enter this git URL:
-
-```console
-https://github.com/mattmanj17/dear-imgui-unity.git#matthewd
-```
-
-## 📝 How To Use It
-
+* [Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from this git URL: https://github.com/mattmanj17/dear-imgui-unity.git#matthewd
 * Add a DearImGui component to one of the objects in the scene.
 * Create 'Ini Settings Asset' and 'Font Atlas Config Asset' in the project folder.
 * Add custom fonts to the '[StreamingAssets](https://docs.unity3d.com/Manual/StreamingAssets.html)' folder and link it up to the 'Font Atlas Config Asset'.
 * Change the 'Font pixel' in the 'Font Atlas Config Asset', to scale up the font size.
 * When using the Universal Render Pipeline, add a Render Im Gui Feature render feature to the renderer asset. Assign it to the render feature field of the DearImGui component.
 * Subscribe to the ImGuiUn.Layout event and use ImGui functions.
+* Example script:
 
-## 🧠 Scripts
-
-Simple Script
-
-```csharp
+```.c#
 using UnityEngine;
 using ImGuiNET;
 
@@ -69,9 +43,9 @@ public class DearImGuiDemo : MonoBehaviour
 }
 ```
 
-Advanced Script
+# Advanced Script
 
-```csharp
+```.c#
 using ImGuiNET;
 using UnityEngine;
 using UnityEngine.Events;
@@ -105,6 +79,7 @@ public class DearImGuiDemoWindow : MonoBehaviour
      * DearImGui
      * Manual - https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html
      */
+
 
     private void OnLayout()
     {
@@ -294,19 +269,16 @@ public class DearImGuiDemoWindow : MonoBehaviour
 }
 ```
 
-## 🔗 Helpful links
+# Helpful links
 
-* [Dear ImGui Manual In C++](https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html)
-* [realgamessoftware - Original Repo](https://github.com/realgamessoftware/dear-imgui-unity/issues)
-* [mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity#matthewd)
-* [ImGui.NET - Repo](https://github.com/mellinoe/ImGui.NET)
-* [cimgui - Repo](https://github.com/cimgui/cimgui)
-* [imgui - 'Creator' Repo](https://github.com/ocornut/imgui)
+[Dear ImGui Manual In C++](https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html)<br/>
+[realgamessoftware - Original Repo](https://github.com/realgamessoftware/dear-imgui-unity/issues)<br>
+[mattmanj17 - Forked Repo](https://github.com/mattmanj17/dear-imgui-unity#matthewd)<br>
+[ImGui.NET - Repo](https://github.com/mellinoe/ImGui.NET)<br>
+[cimgui - Repo](https://github.com/cimgui/cimgui)<br>
+[imgui - 'Creator' Repo](https://github.com/ocornut/imgui)<br>
 
-## 📌 See Also
+# See Also
 This package uses Dear ImGui C bindings by [cimgui](https://github.com/cimgui/cimgui) and the C# wrapper by [ImGui.NET](https://github.com/mellinoe/ImGui.NET).
 
 The development project for the package can be found at https://github.com/realgamessoftware/dear-imgui-unity-dev .
-
-## 🆘 Support
-If you have any questions or issue, just write either to my [YouTube channel](https://www.youtube.com/@mrrobinofficial), [Email](mailto:mrrobin123mail@gmail.com) or [Twitter DM](https://twitter.com/MrRobinOfficial).
