@@ -1,4 +1,4 @@
-![Banner](Banner.png)
+![Banner](static/img/Banner.png)
 
 <div align="center">
   
